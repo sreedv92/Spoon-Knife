@@ -1,0 +1,76 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "sree_test",
+    "note": "",
+    "parameters": {
+        "enabled": false,
+        "execution_timeout": null,
+        "include_external_urls": false,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "cEodg0g1AJ01Mc1DdfXCJFgLmvMIC7AL",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_path": "(SV) sequence record",
+        "snaplex_path": "cloud-dev"
+    },
+    "schedule": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": [],
+                "day_of_week": [
+                    "thu"
+                ]
+            }
+        },
+        "start_date": "2019-12-19",
+        "start_time": "13:06:34",
+        "time_zone": "US/Pacific"
+    },
+    "trigger": {
+        "repeat": {
+            "blackout_dates": [],
+            "by": "minutes",
+            "cron": {
+                "day": "*",
+                "day_of_week": "*",
+                "hour": "*",
+                "minute": "*",
+                "month": "*"
+            },
+            "ends": {
+                "occurrences": null,
+                "when": "never"
+            },
+            "every": 1,
+            "on": {
+                "day": [],
+                "day_of_week": [
+                    "thu"
+                ]
+            }
+        },
+        "start_date": "2019-12-19",
+        "start_time": "13:06:34",
+        "time_zone": "US/Pacific"
+    },
+    "trigger_type": "ScheduleTrigger"
+}
